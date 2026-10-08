@@ -1,10 +1,26 @@
-torch
-torchvision
-opencv-python
-matplotlib
-numpy
-gradio
-tqdm
-requests
-pandas
-pillow
+# Core Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Image Processing & Computer Vision
+pillow>=9.5.0
+opencv-python>=4.8.0
+scikit-image>=0.21.0
+
+# Visualization & Interactive UI
+matplotlib>=3.7.0
+gradio>=4.0.0
+
+# Utilities, Poster PDF & Notebooks
+tqdm>=4.65.0
+requests>=2.31.0
+reportlab>=4.0.0
+nbformat>=5.9.0
+ipykernel>=6.25.0
