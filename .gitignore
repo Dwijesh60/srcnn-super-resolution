@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Gradio cache & logs
+.gradio/
+
+# Large datasets & archives (DIV2K >100MB is downloaded via data/download_div2k.py)
+data/DIV2K_valid_HR.zip
+data/DIV2K/
+data/DIV2K_100/
+*.zip
+*.tar.gz
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
